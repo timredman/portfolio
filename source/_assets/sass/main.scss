@@ -11,7 +11,7 @@ h1 {
 }
 
 .link-hover {
-  
+
   display: inline-block;
   position: relative;
   padding-bottom: 2px;
@@ -36,14 +36,14 @@ h1 {
   }
 }
 
-.nav-links.nav-hidden{
+.hidden{
   opacity: 0;
 }
 
-.nav-links {
-  -webkit-transition: opacity 0.2s ease-in-out;
-  -moz-transition: opacity 0.2s ease-in-out;
-  -ms-transition: opacity 0.2s ease-in-out;
-  -o-transition: opacity 0.2s ease-in-out;
+.hidden-transition {
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
    opacity: 1;
 }

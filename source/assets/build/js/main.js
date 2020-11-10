@@ -153,6 +153,7 @@ var scroll = new smooth_scroll_dist_smooth_scroll_min_js__WEBPACK_IMPORTED_MODUL
  */
 
 var navLinks = document.querySelectorAll('.nav-links');
+var backToTop = document.getElementById('back-to-top');
 var prevScrollpos = window.pageYOffset;
 
 window.onscroll = function () {
@@ -160,11 +161,13 @@ window.onscroll = function () {
 
   if (currentScrollPos < 10) {
     for (var i = 0; i < navLinks.length; i++) {
-      navLinks[i].classList.remove('nav-hidden');
+      navLinks[i].classList.remove('hidden');
+      backToTop.classList.add('hidden');
     }
   } else {
     for (var i = 0; i < navLinks.length; i++) {
-      navLinks[i].classList.add('nav-hidden');
+      navLinks[i].classList.add('hidden');
+      backToTop.classList.remove('hidden');
     }
   }
 
