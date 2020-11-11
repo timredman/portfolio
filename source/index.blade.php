@@ -14,9 +14,6 @@
 
       <h1 class="mt-4 text-5xl">Tim Redman</h1>
 
-<<<<<<< HEAD
-      <p class="font-light">Senior Developer at <a href="https://www.thinkingjuice.co.uk" title="Thinking Juice" class="text-pink-700 font-medium">Thinking Juice</a></p>
-=======
       <p class="font-light">Senior Developer at <a href="https://www.thinkingjuice.co.uk" title="ThinkingJuice" class="text-pink-700 hover:text-pink-600 font-medium">ThinkingJuice</a></p>
 
       <div class="flex">
@@ -178,7 +175,6 @@
           </div>
         </div>
       </div>
->>>>>>> dev
     </div>
   </div>
 </div>
