@@ -1,9 +1,24 @@
 /**
- * Smooth Scroll
+ * Browser Smooth Scroll
  */
-import SmoothScroll from 'smooth-scroll/dist/smooth-scroll.min.js'
 
-var scroll = new SmoothScroll('a[href*="#"]');
+// Find all anchor elements with a href attribute starting with "#"
+const anchorElements = document.querySelectorAll('a[href*="#"]');
+
+// Add a click event listener to each anchor element
+anchorElements.forEach(anchor => {
+  anchor.addEventListener('click', (event) => {
+    event.preventDefault(); // Prevent the default anchor behavior
+
+    const targetId = anchor.getAttribute('href').substring(1); // Get the target element's ID
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      // Use the scrollIntoView API with a smooth behavior option
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+});
 
 /**
  * Hide nav on scroll

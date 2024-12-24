@@ -14,7 +14,7 @@
 
       <h1 class="mt-4 text-5xl">Tim Redman</h1>
 
-      <p class="font-light">Senior Developer at <a href="https://www.thinkingjuice.co.uk" title="ThinkingJuice" class="text-pink-700 hover:text-pink-600 font-medium">ThinkingJuice</a></p>
+      <p class="font-light">Head of Digital at <a href="https://www.chs.agency" title="CHS" class="text-pink-700 hover:text-pink-600 font-medium">CHS</a></p>
 
       <div class="flex">
         <p class="m-2"><a class="text-pink-700 hover:text-pink-600 font-medium" href="mailto:tim.redman@gmail.com">tim.redman@gmail.com</a></p>
@@ -35,7 +35,7 @@
           <div class="px-6 py-4">
             <h2 class="font-bold text-2xl text-gray-700 mb-3">Canine Partners</h2>
             <p class="text-gray-700 text-base">
-              Rebuild of the Canine Partners website, with a big focus on usability and user experience.
+              Rebuild of the Canine Partners website, with a focus on usability and user experience.
             </p>
             <p class="mt-3">
               <a class="text-pink-700 hover:text-pink-600" href="https://www.caninepartners.org.uk">caninepartners.org.uk</a>
@@ -138,7 +138,7 @@
               Laravel CMS build to work with Angular JS front-end plus server maintenance and administration
             </p>
             <p class="mt-3">
-              <a class="text-pink-700 hover:text-pink-600" href="https://vitalityillnesscomparisontool.co.uk/">vitalityillnesscomparisontool.co.uk</a>
+              <a class="text-pink-700 hover:text-pink-600" href="https://www.vitalityillnesscomparisontool.co.uk/">vitalityillnesscomparisontool.co.uk</a>
             </p>
           </div>
           <div class="px-6 py-4">
@@ -155,23 +155,22 @@
 
       <div class="flex w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/3 mb-4 sm:mb-6 md:mb-8 lg:mb-8 xl:mb-8 px-4">
         <div class="w-full rounded overflow-hidden shadow-lg bg-white">
-          <img class="w-full" src="../assets/images/rebel-moments.png" alt="Sunset in the mountains">
+          <img class="w-full" src="../assets/images/anglepoise.png" alt="Sunset in the mountains">
           <div class="px-6 py-4">
-            <h2 class="font-bold text-2xl text-gray-700 mb-3">Rebel Moments</h2>
+            <h2 class="font-bold text-2xl text-gray-700 mb-3">Anglepoise</h2>
             <p class="text-gray-700 text-base">
-              On-going support, development/integration work with printer API's and MediaClip design tools.
+              Migration from Magento to WooCommerce
             </p>
             <p class="mt-3">
-              <a class="text-pink-700 hover:text-pink-600" href="https://www.rebelmoments.com/">rebelmoments.com</a>
+              <a class="text-pink-700 hover:text-pink-600" href="https://www.anlepoise.com/">anglepoise.com</a>
             </p>
           </div>
           <div class="px-6 py-4">
             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Wordpres</span>
             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">WooCommerce</span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Composer</span>
           </div>
           <div class="px-6 py-4">
-            <p class="text-gray-700 text-sm">Whilst working at <a class="text-pink-700 hover:text-pink-600" href="https://www.thinkingjuice.co.uk/">ThinkingJuice</a></p>
+            <p class="text-gray-700 text-sm">Whilst working at <a class="text-pink-700 hover:text-pink-600" href="https://www.elevenmiles.com/">Eleven Miles</a></p>
           </div>
         </div>
       </div>
