@@ -53,6 +53,45 @@ window.onscroll = function () {
   prevScrollpos = currentScrollPos;
 };
 
+// Project overlay functionality
+document.addEventListener('DOMContentLoaded', function () {
+  var overlay = document.getElementById('overlay');
+  var closeButton = document.getElementById('close-overlay');
+  var projectButtons = document.querySelectorAll('.project-details-btn');
+  var projectContents = document.querySelectorAll('.project-content');
+
+  // Open overlay and show specific project content
+  projectButtons.forEach(function (button) {
+    button.addEventListener('click', function () {
+      var projectId = button.getAttribute('data-project-id');
+      overlay.classList.remove('hidden');
+      overlay.classList.add('flex');
+
+      // Hide all project contents first
+      projectContents.forEach(function (content) {
+        content.classList.add('hidden');
+      });
+
+      // Show selected project content
+      document.getElementById(projectId).classList.remove('hidden');
+    });
+  });
+
+  // Close overlay
+  closeButton.addEventListener('click', function () {
+    overlay.classList.add('hidden');
+    overlay.classList.remove('flex');
+  });
+
+  // Close overlay when clicking outside content
+  overlay.addEventListener('click', function (e) {
+    if (e.target === overlay) {
+      overlay.classList.add('hidden');
+      overlay.classList.remove('flex');
+    }
+  });
+});
+
 /***/ }),
 
 /***/ "./source/_assets/css/main.css":
